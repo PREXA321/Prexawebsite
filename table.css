@@ -1,0 +1,38 @@
+  
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+table{
+    background-color:skyblue;
+	letter-spacing: 1.2px;
+}
+
+body{
+     background: -webkit-linear-gradient(left, #DA4453, #89216B);
+        }
+td{
+	text-decoration-color: aliceblue;
+    text-align: center;
+}
+.text-center py-2{
+ 
+  width: 100%;    
+  background-color: #f1f1c1;
+}    
+}
+button,.btn{
+	border:none;
+	background: black;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
